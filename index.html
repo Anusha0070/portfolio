@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+<head>
+    <title>Personal Portfolio</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+
+<body>
+
+
+<div id="main_container">
+    <div class="container" id="container_id">
+
+
+        <header id="header">
+
+            <img id="logo" src="images/logo.png" alt="logo">
+            <a class="icon" href="javascript:void(0);"  onclick="myFunction()">
+    <i class="fa fa-bars fa-2x"></i></a>
+            <nav class="navbar" id="myLinks">
+                <a class="navbar__link" href="#Home">Home</a>
+                <a class="navbar__link" href="#About">About</a>
+                <a class="navbar__link" href="#Work">Work</a>
+                <a class="navbar__link" href="#Contact">Contact</a>
+            </nav>
+
+        </header>
+
+
+        <div class="container__home" id="Home">
+          <h1 class="container__home__title">Hey I am John</h1>
+          <h2 class="container__home__title2">a web developer</h2>
+        </div>
+
+
+        <div class="container__about" id="About">
+
+            <h2 class="container__about__title">About Us</h2>
+            <div class="container__about__info">
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates consequuntur, nihil ipsam iste aspernatur sunt saepe amet voluptatibus odit corporis sapiente magnam, molestias sequi quaerat quos, officia quae. Officiis, consectetur!
+
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, nesciunt provident deserunt obcaecati sit tenetur, at et natus quo nisi praesentium quasi eius maiores delectus suscipit eum, quod sint facilis.
+            </p>
+
+            <button class="container__about__button">READ MORE</button>
+          </div>
+
+        </div>
+
+        <div class="container__work" id="Work">
+            <h2 class= "container__work__title">There are some of my projects</h2>
+            <div class= "container__work__images-box">
+            <img class= "container__work__img" src="images/assignment_05.jpg" alt="image 1" >
+            <img class= "container__work__img" src="images/assignment_08.jpg" alt="image 2" >
+            <img class= "container__work__img" src="images/assignment_10.jpg" alt="image 3" >
+            <img class= "container__work__img" src="images/assignment_16.jpg" alt="image 4" >
+            <img class= "container__work__img" src="images/assignment_17.jpg" alt="image 5" >
+            <img class= "container__work__img" src="images/assignment_18.jpg" alt="image 6" >
+            </div>
+
+            <button class="container__work__button">SHOW ALL</button>
+
+        </div>
+
+            <div class="container__contact" id="Contact">
+            <h2 class="container__contact__title">Lets's work together...</h2>
+            <h4 class= "container__contact__title2"><em>How do you take your coffee?</em></h4>
+            <div class ="container__contact_images">
+            <img class ="container__contact_img" src="images/facebook-icon.png" alt="facebook">
+            <img class ="container__contact_img" src="images/instagram-icon.png" alt="instagram">
+            <img class ="container__contact_img" src="images/twitter-icon.png" alt="twitter">
+            </div>
+        </div>
+
+
+        <div >
+          <h3 class="container_copyright">copyright @2020</h3>
+        </div>
+
+    </div>
+</div>
+
+
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+
+        if (x.className === "navbar") {
+          x.className="new-navbar";
+
+        } else {
+          x.className="navbar";
+        }
+
+
+    }
+
+
+
+</script>
+
+
+
+</body>
+
+
+
+
+</html>
